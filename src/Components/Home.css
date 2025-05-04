@@ -1,0 +1,139 @@
+.home-container {
+    font-family: Arial;
+    background-color: #F4F6F7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1172ba;
+    color: white;
+    padding: 15px 40px;
+    height: 45px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: auto;
+    font-weight: bold ;
+}
+.nav-links li:hover {
+    color: #0f3873;
+}
+
+.nav-links li {
+    cursor: pointer;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.login-btn,
+.signup-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: #1172ba;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #144a91;
+    color: white;
+}
+
+.signup-btn {
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+.hero-section {
+    background: linear-gradient(to bottom, rgba(0, 64, 128, 1)90%, rgb(244, 246, 247));
+    padding: 50px 0;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.cloud {
+    width: 500px;
+    height: auto;
+}
+
+.hero-text {
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.feature-card h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #08273a;
+}
+
+.feature-card p {
+    color: rgba(58, 57, 57, 0.44);
+    text-align: center;
+    font-size: 18px;
+}
+
+.Cloudspace1 {
+    height: 200px;
+    padding: 10px;
+}
